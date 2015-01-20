@@ -28,9 +28,9 @@ p {
     font-family: Montserrat,Helvetica;
     font-size: 18px;
     font-weight: 400;
-    color: #61C3B3;
+    color: #ADC654;
     background-color: #fff;
-    border: 1px solid #61C3B3;
+    border: 1px solid #ADC654;
     border-radius: 4em;
 }
 
@@ -39,7 +39,7 @@ p {
 .btn:active,
 .btn.active {
     color: #fff;
-    background-color: #61C3B3;
+    background-color: #ADC654;
     border-color: transparent;
 }
 
@@ -66,33 +66,35 @@ p {
 }
 
 .get-started-nav {
-    border: 1px solid #61C3B3;
+    border: 1px solid #ADC654;
     border-radius: 4em;
     margin-left: 15px;
 }
 
 a.get-started-nav {
-    color: #61C3B3 !important;
+    color: #ADC654 !important;
 }
 
 a.get-started-nav:hover {
     color: #fff !important;
-    background-color: #61C3B3 !important; 
+    background-color: #ADC654 !important; 
 }
 
 header {
     text-align: center;
+    background-image: url("http://us.sunpower.com/sites/sunpower/files/sunpower-solar-panels-reduce-energy-bills.jpg");
 }
 
 header .intro-text .intro-lead-in {
     padding-top: 150px;
-    padding-bottom: 50px;
+    padding-bottom: 190px;
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat, Helvetica;
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
+    color: #fff;
 }
 
 @media(min-width:768px) {
@@ -113,7 +115,7 @@ header .intro-text .intro-lead-in {
     header .intro-text .intro-get-started {
         font-size: 24px;
         font-weight: 400px;
-        color: #61C3B3;
+        color: #ADC654;
     }
 }
 
@@ -142,13 +144,21 @@ section h2.section-heading {
 
 section .section-subheading {
     margin-bottom: 60px;
-    color: #61C3B3;
+    color: #ADC654;
 }
 
 #get-started {
     padding-top: 0;
     padding-bottom: 150px;
 
+}
+
+.why-heading {
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px
 }
 
 footer {
@@ -171,9 +181,9 @@ footer .footer-text {
 }
 
 .get-started-view .form-control {
-    border-radius:  20px;
+  /*  border-radius:  20px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 20px;*/
 }
 
 .contact-button {
